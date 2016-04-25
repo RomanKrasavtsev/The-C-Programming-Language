@@ -13,7 +13,7 @@ int main(){
   celsius = lower;
   while (celsius <= upper)
   {
-    farh = celsius / (5.0 / 9.0) + 32.0;
+    farh = celsius /(5.0 / 9.0) + 32.0;
     printf("%.2f\t%.1f\n", celsius, farh);
     celsius += step;
   }
